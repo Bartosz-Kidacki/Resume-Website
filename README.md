@@ -1,1 +1,1 @@
-This is a Resume Website for Bartosz Kidacki you can check out the live version https://bartosz-kidacki.github.io/
+My name is Bartosz Kidacki. I am a software developer and this is the code for my resume website. You can check out the live version here: https://bartosz-kidacki.github.io/
