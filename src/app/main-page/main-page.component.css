@@ -1,0 +1,26 @@
+.fixed-header {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  max-height: 64px;
+  min-height: 64px;
+  top: 0;
+  z-index: 10000;
+}
+
+.nav-button {
+  font-size: 1.3vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-button {
+    font-size: max(13px, 2.5vw);
+  }
+}
+
+.page-container {
+
+}
+
+

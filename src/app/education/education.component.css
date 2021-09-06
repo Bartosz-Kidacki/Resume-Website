@@ -1,0 +1,38 @@
+.background {
+  min-height: 100vh;
+  min-width: 99vw;
+  text-align: justify;
+  background-color: #cbcbcb;
+}
+
+.rutgers-image {
+  width: 80%;
+  height: auto;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 20% 50px 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 50px 20px 50px 20px;
+  }
+}
+
+.education-text {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-top: 50px;
+}
+
+.education-title {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
