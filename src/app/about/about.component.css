@@ -1,6 +1,9 @@
+/*
+ * Copyright (c) 2021, Bartosz Kidacki. All rights reserved.
+ */
+
 .about-text {
   font-size: 1.5rem;
-  text-align: justify;
   line-height: 1.5;
 }
 
@@ -103,7 +106,7 @@
 }
 
 .contact-info {
-  font-size: 1.3vw;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1000px) {

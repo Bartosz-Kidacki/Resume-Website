@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+/* Copyright (c) 2021, Bartosz Kidacki. All rights reserved.*/
+import {Component, OnInit} from '@angular/core';
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +8,11 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  linkedInIcon=faLinkedin;
-  gitHubIcon=faGithub;
-  constructor() { }
+  linkedInIcon = faLinkedin;
+  gitHubIcon = faGithub;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

@@ -19,6 +19,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatCardModule} from "@angular/material/card";
+import { SnakeGameComponent } from './snake-game/snake-game.component';
+import { SnakeGamePreviewComponent } from './snake-game-preview/snake-game-preview.component';
+import {MatDialogModule} from "@angular/material/dialog";
 
 
 @NgModule({
@@ -30,6 +33,8 @@ import {MatCardModule} from "@angular/material/card";
     EducationComponent,
     SkillsComponent,
     ProjectsComponent,
+    SnakeGameComponent,
+    SnakeGamePreviewComponent,
 
 
   ],
@@ -50,6 +55,7 @@ import {MatCardModule} from "@angular/material/card";
     MatProgressSpinnerModule,
     MatProgressBarModule,
     MatCardModule,
+    MatDialogModule,
 
 
   ],

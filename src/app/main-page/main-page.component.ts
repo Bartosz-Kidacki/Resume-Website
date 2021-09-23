@@ -1,3 +1,8 @@
+
+/*
+ * Copyright (c) 2021, Bartosz Kidacki. All rights reserved.
+ */
+
 import { Component, OnInit } from '@angular/core';
 import {ViewportScroller} from "@angular/common";
 

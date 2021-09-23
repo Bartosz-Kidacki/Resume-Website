@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright (c) 2021, Bartosz Kidacki. All rights reserved.
+  -->
+
 <a name="projects" class="anchor"></a>
 
 <div class="background">
@@ -24,7 +28,7 @@
         <div>
           <mat-card>
             <mat-card-title>Description</mat-card-title>
-            <div class="tongue-twister-description">
+            <div class="description">
               &nbsp;&nbsp;The Tongue Twister Application utilizes a MySQL database that is hosted on the Amazon RDS. The
               application also uses a web server that was set up using Spring and is hosted on an Amazon
               EC2 server in a Tomcat container. The Tongue Twister application connects to a web-server
@@ -35,7 +39,25 @@
         </div>
       </div>
       <div class="right-side">
-        <h3 class="projects-sub-title">Snake Game (Under Construction)</h3>
+        <h3 class="projects-sub-title">Snake Game</h3>
+        <div style="align-self: center">
+          <mat-card>
+
+            <div class="snake-container" (click)="openDialog()">
+              <app-snake-game-preview></app-snake-game-preview>
+              <button class="play-button" mat-button (click)="openDialog()">Play</button>
+            </div>
+          </mat-card>
+        </div>
+        <div>
+          <mat-card>
+            <mat-card-title>Description</mat-card-title>
+            <div class="description">
+              Simple snake game written in Typescript and HTML5.You can play the game in the browser. Click the play
+              button and use the arrow keys to control the snake. On mobile swipe in the direction you want the snake to move to control the snakes movement.
+            </div>
+          </mat-card>
+        </div>
       </div>
     </div>
   </div>
