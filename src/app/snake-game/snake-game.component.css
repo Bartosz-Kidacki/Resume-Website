@@ -4,8 +4,10 @@
 
 
 .snake-canvas {
-  width: 25vw;
-  height: 25vw;
+  width: 50vh;
+  height: 50vh;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 @media only screen and (max-width: 1000px) {
