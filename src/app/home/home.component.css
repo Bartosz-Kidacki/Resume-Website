@@ -10,7 +10,17 @@
   margin-right: auto;
   display: block;
   height: auto;
-  width: 15%;
+  width: 20%;
+}
+@media only screen and (max-width: 1000px) {
+ .image{
+   width: 50%
+ }
+}
+@media only screen and (max-width: 1000px) {
+  .image{
+    width: 50%
+  }
 }
 
 .home-content {
