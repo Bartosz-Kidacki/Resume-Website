@@ -15,12 +15,12 @@
 }
 
 .nav-button {
-  font-size: 1.3vw;
+  font-size: max(.75rem, 1.3vw);
 }
 
 @media only screen and (max-width: 1000px) {
   .nav-button {
-    font-size: max(13px, 2.5vw);
+    font-size: max(.75rem, 2.5vw);
   }
 }
 

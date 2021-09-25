@@ -268,6 +268,7 @@ export class SnakeGameComponent implements OnInit, AfterViewInit {
         }
       }
     }
+    event.preventDefault();
   }
 
 
